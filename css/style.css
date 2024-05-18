@@ -355,7 +355,7 @@ h3.my-profrssiion
     text-align:center;
     position: relative;
 }
-.home-img::after
+/* .home-img::after
 {
     content: "";
     position: absolute;
@@ -363,7 +363,7 @@ h3.my-profrssiion
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
+    right: -100px;
     bottom: -40px;
 }
 .home-img::before
@@ -376,7 +376,7 @@ h3.my-profrssiion
     border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
-}
+} */
 .home .home-img img
 {
     margin: auto;
