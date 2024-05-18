@@ -93,3 +93,29 @@ const nav =document.querySelector(".nav"),
             allSection[i].classList.toggle("open");
         }
     }
+
+
+    //email.js
+        function sendMail() {
+        var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        seubject:document.getElementById|("seubject").value,
+        message: document.getElementById("message").value,
+        };
+      
+        const serviceID = "service_l7kqwlo";
+        const templateID = "template_3pcfl2c";
+      
+          emailjs.send(serviceID, templateID, params)
+          .then(res=>{
+              document.getElementById("name").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("seubject").value = "";
+              document.getElementById("message").value = "";
+              console.log(res);
+              alert("Your message sent successfully!!")
+      
+          })
+          .catch(err=>console.log(err));
+      }
