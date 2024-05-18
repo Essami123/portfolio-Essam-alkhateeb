@@ -822,7 +822,7 @@ h3.my-profrssiion
     }
     .home .home-img
     {
-        display: none;
+        display:inline-block;
     }
 }
 @media(max-width:767px)
