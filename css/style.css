@@ -814,7 +814,9 @@ h3.my-profrssiion
         flex: 0 0 50%;
         max-width: 50%;
     }
+    
     .about .about-content .edcucation,
+    .about .about-content .experience,
     .home .home-info
     {
         flex: 0 0 100%;
