@@ -104,8 +104,8 @@ const nav =document.querySelector(".nav"),
         message: document.getElementById("message").value,
         };
       
-        const serviceID = "service_l7kqwlo";
-        const templateID = "template_3pcfl2c";
+        const serviceID = "service_3vtz3ss";
+        const templateID = "template_awje3wb";
       
           emailjs.send(serviceID, templateID, params)
           .then(res=>{
